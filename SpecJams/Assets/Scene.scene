@@ -1220,7 +1220,7 @@
 - !<SceneObject/0f03e4a3-386d-42bb-8f98-a361f9fc646b>
   PrefabRemaps:
     []
-  Name: InteractorLineVisual
+  Name: Simple Emitter
   Enabled: false
   Layers: 1
   LocalTransform:
@@ -1232,6 +1232,7 @@
     []
   Components:
     - !<own> 6a4a2594-23ee-4917-b63a-e66906896c3d
+    - !<own> d652a269-1dc0-4e99-b393-80e0f961b0d7
 - !<ScriptComponent/0f3256cc-922c-40fb-8385-bbd481000583>
   PrefabRemaps:
     []
@@ -16885,6 +16886,19 @@
   ScriptTypes:
     "":
       {}
+- !<VFXComponent/d652a269-1dc0-4e99-b393-80e0f961b0d7>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 2eb94ce5-d6da-4480-95aa-aee5afe4503b
 - !<SceneObject/d6855e71-a3a6-4f46-9c57-e1cefde96d70>
   PrefabRemaps:
     []
