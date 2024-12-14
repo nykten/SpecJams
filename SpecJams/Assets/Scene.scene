@@ -6764,6 +6764,7 @@
     - !<own> 87bc3897-52bc-4fe4-8411-2ceb7eb0600f
     - !<own> a79faf34-eebe-4e09-beeb-86fc065a50e0
     - !<own> a7fc8c56-97c4-4ce7-b959-0842d91c823a
+    - !<own> 8f5bcd76-1099-44e7-a702-ffe64f0cb339
 - !<ScriptComponent/56e7a9b4-68ba-482e-9471-f41331a19220>
   PrefabRemaps:
     []
@@ -11716,6 +11717,22 @@
     []
   Components:
     []
+- !<ScriptComponent/8f5bcd76-1099-44e7-a702-ffe64f0cb339>
+  PrefabRemaps:
+    []
+  Name: audioSync-Specs.js
+  Enabled: false
+  ScriptAsset: !<reference> 685a75bd-eedb-4f01-838c-44fe69b93af1
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> 447880bf-1456-4a89-8bd1-cd9e2de8ff64
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/8f924f5b-2301-441c-94aa-19951aad5310>
   PrefabRemaps:
     []
