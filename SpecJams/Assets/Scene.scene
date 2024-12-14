@@ -4308,6 +4308,59 @@
   ScriptTypes:
     "":
       {}
+- !<ScriptComponent/2ece5313-f9f8-4396-89e6-e111cdc9cb28>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    minimumScaleFactor: true
+    enableTranslation: true
+    enableRotation: true
+    enableScale: true
+    showStretchZProperties: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showFilterProperties: true
+    minCutoff: true
+    beta: true
+    dcutoff: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 520e104f-ed6a-4cda-aed9-c6714ff6b1fb
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 10.000000
+      enableTranslation: true
+      enableRotation: true
+      enableScale: true
+      enableStretchZ: false
+      showStretchZProperties: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showFilterProperties: false
+      minCutoff: !<float> 2.000000
+      beta: 0.015000
+      dcutoff: !<float> 1.000000
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/2eddf364-f566-41f5-a99a-0ad3c8a1663c>
   PrefabRemaps:
     []
@@ -6478,6 +6531,8 @@
     - !<own> 13a1c296-7410-4c7d-a70c-b1d60b78e655
     - !<own> 4ce0f73a-972c-4b88-8372-7cb5efeecdc7
     - !<own> d705fadb-9846-4943-b8cf-a65d213f5720
+    - !<own> 2ece5313-f9f8-4396-89e6-e111cdc9cb28
+    - !<own> c41cc381-461b-4d02-8740-09e664b8dd19
 - !<SceneObject/52fbacea-a039-4941-b4d8-e94de7d245da>
   PrefabRemaps:
     []
@@ -8346,6 +8401,26 @@
     - !<own> ea1e74a2-6fe2-4cfc-baaa-4dfde21ea156
   Components:
     []
+- !<ScriptComponent/69161dd9-8bcb-4784-9c89-a92e1d5501e4>
+  PrefabRemaps:
+    []
+  Name: SyncRealtimeStore
+  Enabled: true
+  ScriptAsset: !<reference> f7c29b24-d8cf-4caa-be73-237a4610518d
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    ownershipType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      ownershipType: none
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/69342aa5-54de-4649-850c-ca4a73b4fc80>
   PrefabRemaps:
     []
@@ -8574,6 +8649,9 @@
     - !<own> 3b8536bf-5d9e-4ab2-837a-c6547beffa54
     - !<own> b56867db-68b1-4de4-a0ea-0f175cd60251
     - !<own> 2b0e985f-dcbd-4167-9835-fb3b9a397784
+    - !<own> dea4144a-4a7f-41c7-a970-3b6f5f1cecdf
+    - !<own> e58a03fa-1309-44b1-b2f5-5713c16e551d
+    - !<own> 69161dd9-8bcb-4784-9c89-a92e1d5501e4
 - !<SceneObject/6ba353c7-54b6-46d8-a13b-61379a18b139>
   PrefabRemaps:
     []
@@ -10485,6 +10563,59 @@
   Enabled: true
   Position: {x: 0.000000, y: 0.000000, z: 0.000000}
   Location: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/827f0d4d-f066-4684-af2b-42027579172c>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    minimumScaleFactor: true
+    enableTranslation: true
+    enableRotation: true
+    enableScale: true
+    showStretchZProperties: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showFilterProperties: true
+    minCutoff: true
+    beta: true
+    dcutoff: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> f8162ee5-436b-44b1-a9c7-22839dc2c976
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 10.000000
+      enableTranslation: true
+      enableRotation: true
+      enableScale: true
+      enableStretchZ: false
+      showStretchZProperties: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showFilterProperties: false
+      minCutoff: !<float> 2.000000
+      beta: 0.015000
+      dcutoff: !<float> 1.000000
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/829b5214-b63a-4786-a0a2-a1f4bd398945>
   PrefabRemaps:
     []
@@ -13599,6 +13730,33 @@
   ScriptTypes:
     "":
       {}
+- !<ScriptComponent/a761e7ce-6de0-42ae-bd50-2e4ae072cd0f>
+  PrefabRemaps:
+    []
+  Name: SyncTransform
+  Enabled: true
+  ScriptAsset: !<reference> 14673cb5-7f1b-429f-a3fb-5af501303631
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    persistence: true
+    interpolationTarget: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      positionSync: location
+      rotationSync: location
+      scaleSync: location
+      persistence: Session
+      sendsPerSecondLimit: !<float> 5.000000
+      useSmoothing: true
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/a79faf34-eebe-4e09-beeb-86fc065a50e0>
   PrefabRemaps:
     []
@@ -15491,6 +15649,33 @@
       targetingMode: !<float> 3.000000
       enableInstantDrag: false
       allowMultipleInteractors: true
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/c41cc381-461b-4d02-8740-09e664b8dd19>
+  PrefabRemaps:
+    []
+  Name: SyncTransform
+  Enabled: true
+  ScriptAsset: !<reference> 14673cb5-7f1b-429f-a3fb-5af501303631
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    persistence: true
+    interpolationTarget: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      positionSync: location
+      rotationSync: location
+      scaleSync: location
+      persistence: Session
+      sendsPerSecondLimit: !<float> 5.000000
+      useSmoothing: true
+      interpolationTarget: -0.250000
   ScriptTypes:
     "":
       {}
@@ -17845,6 +18030,59 @@
     bottom: -1.050000
     right: 5.000000
     top: 1.050000
+- !<ScriptComponent/dea4144a-4a7f-41c7-a970-3b6f5f1cecdf>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    minimumScaleFactor: true
+    enableTranslation: true
+    enableRotation: true
+    enableScale: true
+    showStretchZProperties: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showFilterProperties: true
+    minCutoff: true
+    beta: true
+    dcutoff: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 6b513c17-62f8-4c66-b039-574b552e6ac5
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 10.000000
+      enableTranslation: true
+      enableRotation: true
+      enableScale: true
+      enableStretchZ: false
+      showStretchZProperties: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showFilterProperties: false
+      minCutoff: !<float> 2.000000
+      beta: 0.015000
+      dcutoff: !<float> 1.000000
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/df310c2a-7275-4e32-9862-f711bdc4c678>
   PrefabRemaps:
     []
@@ -18381,6 +18619,33 @@
     []
   Components:
     - !<own> 72787bf9-124f-48cc-9794-ba915bad8099
+- !<ScriptComponent/e58a03fa-1309-44b1-b2f5-5713c16e551d>
+  PrefabRemaps:
+    []
+  Name: SyncTransform
+  Enabled: true
+  ScriptAsset: !<reference> 14673cb5-7f1b-429f-a3fb-5af501303631
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    persistence: true
+    interpolationTarget: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      positionSync: location
+      rotationSync: location
+      scaleSync: location
+      persistence: Session
+      sendsPerSecondLimit: !<float> 5.000000
+      useSmoothing: true
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/e5d9b5c8-efba-4ea8-bb00-26c871cfc9f8>
   PrefabRemaps:
     []
@@ -20042,6 +20307,8 @@
     - !<own> 58a97b8a-4d4c-4e82-995d-14e0e9d72024
     - !<own> 6ea590d3-9eea-4c66-a00c-38f4bf24008a
     - !<own> 396da4f1-1fd3-4ec4-bbaa-3b41c285ba7f
+    - !<own> 827f0d4d-f066-4684-af2b-42027579172c
+    - !<own> a761e7ce-6de0-42ae-bd50-2e4ae072cd0f
 - !<SceneObject/f825c7e2-fce5-4e51-b7a7-757fafdcfb46>
   PrefabRemaps:
     []
