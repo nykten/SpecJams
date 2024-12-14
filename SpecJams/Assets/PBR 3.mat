@@ -1,8 +1,8 @@
-- !<Material/5719ea34-e76b-49d7-b56f-da035ec0330e>
+- !<Material/2503da5a-a312-4d23-a955-778a94908ec7>
   PackagePath: ""
   PassesInfo:
-    - !<own> ff41291a-86cd-4ae7-9594-fa82037a5517
-- !<PassInfo/ff41291a-86cd-4ae7-9594-fa82037a5517>
+    - !<own> 569bfc8b-fd15-44d4-b5d4-ea887bead2b0
+- !<PassInfo/569bfc8b-fd15-44d4-b5d4-ea887bead2b0>
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -33,7 +33,7 @@
       value: 0
     Tweak_N8:
       typeIdx: 5
-      value: {x: 0.666667, y: 0.333333, z: 1.000000, w: 1.000000}
+      value: {x: 1.000000, y: 1.000000, z: 0.000000, w: 1.000000}
     materialParamsTex:
       typeIdx: 9
       value:

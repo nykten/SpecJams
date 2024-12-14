@@ -31,18 +31,9 @@
     PreviewEnabled:
       typeIdx: 0
       value: 0
-    baseTex:
-      typeIdx: 9
-      value:
-        id: 3fbcc612-eabb-4f48-b729-c586076d4faf
-        sampler:
-          filteringMode: Trilinear
-          wrapModeU: Repeat
-          wrapModeV: Repeat
-          wrapModeW: Repeat
-          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-          mipmaps: false
-        type: Texture2D
+    Tweak_N8:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.666667, z: 1.000000, w: 1.000000}
     materialParamsTex:
       typeIdx: 9
       value:
