@@ -1,5 +1,7 @@
+![SpecJams logo](SpecJams-logo.jpg)
+
 # SpecJams
-Made for Snap Spectacles '24 during AR Day London 2024
+An experience made for Snap Spectacles '24 during AR Day London 2024 (13th-14th Dec).
 
 ## Inspiration
 We were inspired by the universal appeal of music as a way to connect people. While VR allows digital collaboration, we wanted to bring that experience into the real world, leveraging the lightweight form factor of Spectacles to create spontaneous, social interactions. The idea of combining real-world presence with creative digital tools felt like a perfect blend of AR’s potential.
@@ -23,7 +25,9 @@ We learned a lot about designing this AR experience to leverage digital interact
 Next, we want to add more instruments and sound effects, allowing users to do different jam sessions. We envision SpecJams becoming a memorable experience that you enjoy playing again and again, sparking musical creativity and social connection.
 
 ## Contributors:
-* **Allan Berger** - Idea, Designer, Developer
-* **Maria Lande Lund** - Visual Designer
-* **Anushka Khemka** - Resource manager
-* **Nik Harith** - Technical Developer
+* **Allan Berger** - Ideation, Designer, experience developer
+* **Maria Lande Lund** - Visual Designer, logo creation and experience builder
+* **Anushka Khemka** - Resource manager, sounds and song choice, slides preparation
+* **Nik Harith** - Technical Developer, implemented Connected Lens module
+
+**HUGE** thanks to the folks at Snap during all the days together especially **Raag Harshavat** and **Joe Darko**, all the engineers and staffs that supported us throughout the hackathon journey. Love y'all.
