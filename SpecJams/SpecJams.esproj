@@ -20,7 +20,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: ForkSpecsConnected
+  lensName: SpecJams-MULTI
   lensDescriptors:
     []
   lensApplicability:
@@ -28,7 +28,7 @@ metaInfo:
     - Back
   lensClientCompatibilities:
     - Spectacles
-  iconHash: ""
+  iconHash: f3e1ba8664ad0502cc8943d41fe31011
   videoPreviewHash: ""
   fromTemplateName: Spectacles Connected
   fromTemplateUrl: Lens Studio 5.3.0.24111410

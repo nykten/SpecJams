@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/b355a4e9-8962-4173-be0a-f97cd5198ced>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 082da326-4593-48be-af05-f8d99534854b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 082da326-4593-48be-af05-f8d99534854b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> baa42ef1-7fd6-4ed4-a575-e98f1eb5352c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/fdf6bc39-3130-4bf5-844f-a8d88b965794>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/baa42ef1-7fd6-4ed4-a575-e98f1eb5352c>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    _axisBufferDegrees: false
+    _axisEasing: false
+    _xAxisEnabled: false
+    _yAxisEnabled: false
+    _zAxisEnabled: false
+    duration: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - _xAxisEnabled: false
+      _yAxisEnabled: true
+      _zAxisEnabled: false
+      _axisBufferDegrees: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      _axisEasing: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      duration: 0.033000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"group_start", "label":"Billboard"}'
+    - // @input bool _xAxisEnabled = false
+    - // @input bool _yAxisEnabled = true
+    - // @input bool _zAxisEnabled = false
+    - '// @input vec3 _axisBufferDegrees {"hint":"How big the angle must be to start rotating about that axis"}'
+    - '// @input vec3 _axisEasing {"hint":"How fast the target should rotate to follow camera, instant follow = 1, delay follow = 0.1"}'
+    - '// @input float duration = 0.033 {"hint":"Decrecated. Please use the property Axis Easing to adjust the rotation speed"}'
+    - '// @ui {"widget":"group_end"}'

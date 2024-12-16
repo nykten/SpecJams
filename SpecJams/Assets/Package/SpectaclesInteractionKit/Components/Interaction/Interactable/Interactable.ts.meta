@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/3da5198f-c92e-49ea-a2d3-7b172d1b996b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> abf85b49-e848-47e9-a9a6-75846673db55
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> abf85b49-e848-47e9-a9a6-75846673db55
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> c724070e-e750-42e9-b2a7-b78330ef5c65
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/51f9fadb-62db-4535-b9e4-06451b5dfd54>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c724070e-e750-42e9-b2a7-b78330ef5c65>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    allowMultipleInteractors: false
+    enableInstantDrag: false
+    isScrollable: false
+    targetingMode: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float targetingMode = 3 {"widget":"combobox", "values":[{"label":"Direct", "value":1}, {"label":"Indirect", "value":2}, {"label":"Direct/Indirect", "value":3}, {"label":"Poke", "value":4}, {"label":"All", "value":7}]}'
+    - "// @input bool enableInstantDrag = false {\"hint\":\"Enable this to allow the Interactable to instantly be dragged on trigger rather than obeying the Interactor's drag threshold.\"}"
+    - // @input bool isScrollable = false
+    - // @input bool allowMultipleInteractors = true
