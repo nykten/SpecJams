@@ -16,6 +16,8 @@
     CompressorName: None
     CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   NativePackageRoot: !<reference> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<AnimatedTextureData/1ffc73ed-283a-4d7c-9da4-12dcce4b8208>
   AutoPlay: true
   Reversed: false

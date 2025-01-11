@@ -12,6 +12,8 @@
   ImporterSettings: !<AssetImporterSettings/c617251a-cfdf-4f6a-a0d4-de3c846d0750>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<VFXAssetData/fc11a8dd-fefe-4cfb-91e7-fe348e668272>
   Mesh: !<reference> 00000000-0000-0000-0000-000000000000
   SystemPassProperties:

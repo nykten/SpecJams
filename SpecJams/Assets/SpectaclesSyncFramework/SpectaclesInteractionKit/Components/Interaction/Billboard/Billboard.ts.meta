@@ -12,6 +12,8 @@
   DependentFiles:
     []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/cc1c0282-7975-43d8-b046-d297c4b12ac6>
   Icon: ""
   Description: ""
@@ -44,9 +46,9 @@
       {}
   InputLines:
     - '// @ui {"widget":"group_start", "label":"Billboard"}'
-    - // @input bool _xAxisEnabled = false
+    - // @input bool _xAxisEnabled
     - // @input bool _yAxisEnabled = true
-    - // @input bool _zAxisEnabled = false
+    - // @input bool _zAxisEnabled
     - '// @input vec3 _axisBufferDegrees {"hint":"How big the angle must be to start rotating about that axis"}'
     - '// @input vec3 _axisEasing {"hint":"How fast the target should rotate to follow camera, instant follow = 1, delay follow = 0.1"}'
     - '// @input float duration = 0.033 {"hint":"Decrecated. Please use the property Axis Easing to adjust the rotation speed"}'

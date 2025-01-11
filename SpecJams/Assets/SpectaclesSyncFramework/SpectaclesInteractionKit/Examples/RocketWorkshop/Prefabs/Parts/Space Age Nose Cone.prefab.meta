@@ -12,6 +12,8 @@
   ImporterSettings: !<AssetImporterSettings/f6195b58-3a45-4bff-a829-21b0704727c9>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<SceneObject/33de337f-55be-434a-835f-d771996ea7ac>
   PrefabRemaps:
     []

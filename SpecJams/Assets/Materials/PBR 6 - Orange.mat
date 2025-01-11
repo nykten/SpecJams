@@ -1,0 +1,78 @@
+- !<Material/2bd20067-504d-497a-ae21-070a7d07117c>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 95f7ba76-92bd-4ea8-b2a5-7404a5f96489
+- !<PassInfo/95f7ba76-92bd-4ea8-b2a5-7404a5f96489>
+  CachedProperties:
+    - baseTex:
+        typeIdx: 9
+        value:
+          id: 003645da-2758-4dcc-9565-9b4e5924ea27
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_NORMALMAP
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_221_DROPLIST_ITEM 0
+    - NODE_228_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_315_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - NODE_76_DROPLIST_ITEM 0
+    - ENABLE_RIM_HIGHLIGHT
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 0.333333, z: 0.000000, w: 1.000000}
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    normalTex:
+      typeIdx: 9
+      value:
+        id: 003645da-2758-4dcc-9565-9b4e5924ea27
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    rimColor:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    rimExponent:
+      typeIdx: 1
+      value: 1.900000
+    rimIntensity:
+      typeIdx: 1
+      value: 1.000000
+    roughness:
+      typeIdx: 1
+      value: 0.750000
+  Pass: !<reference> d94fda22-dea7-4f6a-a424-3dfcecca35f0

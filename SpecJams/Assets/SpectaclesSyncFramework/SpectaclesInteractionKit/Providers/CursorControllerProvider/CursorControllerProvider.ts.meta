@@ -12,6 +12,8 @@
   ImporterSettings: !<AssetImporterSettings/1f284955-3ea0-48ce-949a-c26d76c0179d>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/83a970b2-2896-42c0-9952-7f3a4bddc137>
   SvgIcon: ""
   Description: ""

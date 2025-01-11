@@ -12,6 +12,8 @@
   DependentFiles:
     []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/20e54d2a-8adb-49bf-a9c3-c3fcd28ef0a4>
   Icon: ""
   Description: ""
@@ -38,6 +40,6 @@
       {}
   InputLines:
     - // @input bool enableCursorHolding = true
-    - // @input bool enableFilter = false
+    - // @input bool enableFilter
     - // @input Component.ScriptComponent _interactor
   SvgIcon: ""

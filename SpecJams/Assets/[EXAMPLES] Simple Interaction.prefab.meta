@@ -12,12 +12,14 @@
   ImporterSettings: !<AssetImporterSettings/775d8786-acf9-4cb8-9f85-461f36ac4cd6>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<BodyComponent/06d5df70-c52c-4174-9fa0-ed7de81c4ccd>
   PrefabRemaps:
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -132,7 +134,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -422,7 +424,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -528,7 +530,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -674,7 +676,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -684,7 +686,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -798,7 +800,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -896,7 +898,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1106,7 +1108,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     FitVisual: true
     Size: {x: 15.000000, y: 15.000000, z: 15.000000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1454,7 +1456,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -1518,7 +1520,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1602,7 +1604,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+  Shape: !<Sphere>
     FitVisual: true
     Radius: 6.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1842,7 +1844,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -2208,7 +2210,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000

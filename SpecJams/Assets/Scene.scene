@@ -535,16 +535,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -552,9 +552,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -563,9 +563,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -578,7 +578,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -852,7 +852,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+  Shape: !<Sphere>
     FitVisual: true
     Radius: 6.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1384,16 +1384,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1401,9 +1401,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1412,9 +1412,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1427,7 +1427,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -1954,7 +1954,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+  Shape: !<Sphere>
     FitVisual: true
     Radius: 6.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -2204,6 +2204,21 @@
     []
   Components:
     - !<own> 0767e474-6004-46b9-8e9c-3c1f35a86137
+- !<SceneObject/1ba0b15a-0ada-46ff-802d-71255ce52cab>
+  PrefabRemaps:
+    []
+  Name: Directional
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7ec02e96-eb59-4012-bcb8-718d3123cdca
 - !<Text/1c2710a1-8fe8-4125-a615-a611fa7517eb>
   PrefabRemaps:
     []
@@ -2230,16 +2245,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -2247,9 +2262,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -2258,9 +2273,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -2273,7 +2288,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -3866,7 +3881,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     FitVisual: true
     Size: {x: 7.500000, y: 2.100000, z: 2.100000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -3909,7 +3924,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -3954,16 +3969,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -3971,9 +3986,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -3982,9 +3997,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -3997,7 +4012,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -4247,7 +4262,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -4987,7 +5002,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+  Shape: !<Sphere>
     FitVisual: true
     Radius: 1.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -5314,7 +5329,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     FitVisual: true
     Size: {x: 15.000000, y: 15.000000, z: 15.000000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -5485,7 +5500,7 @@
   Autoplay: false
   ClipRangeType: Frames
   AnimationClips:
-    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+    - !<AnimationClip>
       AnimationAsset: !<reference> f5c644d1-89d8-4bc1-9fde-2a591fbbc6f4
       Name: Teaching
       Weight: 0.000000
@@ -5497,7 +5512,7 @@
       BlendMode: Default
       ScaleMode: Multiply
       PlaybackMode: Single
-    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+    - !<AnimationClip>
       AnimationAsset: !<reference> f5c644d1-89d8-4bc1-9fde-2a591fbbc6f4
       Name: Mapping
       Weight: 0.000000
@@ -5550,16 +5565,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -5567,9 +5582,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -5578,9 +5593,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -5593,7 +5608,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -5605,7 +5620,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     FitVisual: false
     Size: {x: 7.500000, y: 2.100000, z: 2.100000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -6105,16 +6120,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 0.274510, y: 0.274510, z: 0.274510, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -6122,9 +6137,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -6133,9 +6148,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -6148,7 +6163,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -6529,7 +6544,7 @@
 - !<SceneObject/4d908403-0366-4431-81e6-4579ff249947>
   PrefabRemaps:
     []
-  Name: Curve.008
+  Name: logo_BG
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -6731,7 +6746,7 @@
   Autoplay: true
   ClipRangeType: Frames
   AnimationClips:
-    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+    - !<AnimationClip>
       AnimationAsset: !<reference> 83e803e8-f589-4b21-aed4-fd9b6bceb042
       Name: BaseLayer
       Weight: 1.000000
@@ -6945,7 +6960,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+  Shape: !<Sphere>
     FitVisual: true
     Radius: 6.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7336,16 +7351,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7353,9 +7368,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: true
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7364,9 +7379,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7379,7 +7394,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -7417,7 +7432,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -7601,16 +7616,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7618,9 +7633,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7629,9 +7644,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7644,7 +7659,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -7712,16 +7727,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7729,9 +7744,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: true
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7740,9 +7755,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7755,7 +7770,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -7843,16 +7858,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7860,9 +7875,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7871,9 +7886,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7886,7 +7901,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -7928,7 +7943,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7989,16 +8004,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8006,9 +8021,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8017,9 +8032,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8032,7 +8047,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -8128,16 +8143,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8145,9 +8160,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8156,9 +8171,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8171,7 +8186,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -8356,7 +8371,7 @@
 - !<SceneObject/63950278-cca1-4941-9b5e-d30108015e90>
   PrefabRemaps:
     []
-  Name: Curve.004
+  Name: logo_s
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -8579,7 +8594,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8644,16 +8659,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8661,9 +8676,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8672,9 +8687,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8687,7 +8702,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -8732,7 +8747,7 @@
 - !<SceneObject/677d4cb6-8377-48ff-be81-279373389c40>
   PrefabRemaps:
     []
-  Name: Curve.005
+  Name: logo_spec
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -8883,16 +8898,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8900,9 +8915,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: true
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8911,9 +8926,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8926,7 +8941,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -9436,9 +9451,9 @@
     []
   Name: Light Source
   Enabled: true
-  renderLayer: 1
-  LightType: EnvMap
-  Intensity: 0.900000
+  renderLayer: 1835007
+  LightType: Ambient
+  Intensity: 1.000000
   CastShadows: true
   ShadowDensity: 0.440000
   ShadowBlurRadius: 4.000000
@@ -9565,7 +9580,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -9610,16 +9625,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -9627,9 +9642,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -9638,9 +9653,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -9653,7 +9668,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -9959,16 +9974,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -9976,9 +9991,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -9987,9 +10002,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10002,7 +10017,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -10087,16 +10102,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10104,9 +10119,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10115,9 +10130,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10130,7 +10145,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -10221,11 +10236,11 @@
   Near: 1.000000
   Far: 1000.000000
   Fov: 63.541000
-  ClearColor: !<CameraClearColor/00000000-0000-0000-0000-000000000000>
+  ClearColor: !<CameraClearColor>
     Mode: None
     Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
     InputTexture: !<reference> 8aba9812-4ad1-473d-aaf0-a70446ab269a
-  ClearDepth: !<CameraClearDepth/00000000-0000-0000-0000-000000000000>
+  ClearDepth: !<CameraClearDepth>
     Mode: None
     Value: 1.000000
     InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10500,16 +10515,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10517,9 +10532,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10528,9 +10543,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10543,7 +10558,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -10555,7 +10570,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     FitVisual: false
     Size: {x: 7.500000, y: 2.100000, z: 2.100000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10847,6 +10862,41 @@
   ScriptTypes:
     "":
       {}
+- !<LightSource/7ec02e96-eb59-4012-bcb8-718d3123cdca>
+  PrefabRemaps:
+    []
+  Name: Light Source
+  Enabled: true
+  renderLayer: 1835007
+  LightType: Directional
+  Intensity: 1.000000
+  CastShadows: false
+  ShadowDensity: 1.000000
+  ShadowBlurRadius: 0.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: false
+  AutoShadowFrustumSize: false
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 30.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  UseEstimation: false
+  EstimationIntensity: 1.000000
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.000000
+  EnvMapRotation: 0.000000
+  DiffuseEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SpecularEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 45.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 40.000000
 - !<Text/7fd19939-aff4-4aeb-a1d8-a3d8492c8431>
   PrefabRemaps:
     []
@@ -10873,16 +10923,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10890,9 +10940,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10901,9 +10951,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10916,7 +10966,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.050000
     LineSpacing: 1.000000
@@ -10965,16 +11015,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10982,9 +11032,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -10993,9 +11043,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11008,7 +11058,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -11151,16 +11201,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11168,9 +11218,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11179,9 +11229,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11194,7 +11244,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -11473,16 +11523,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11490,9 +11540,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11501,9 +11551,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11516,7 +11566,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -11583,16 +11633,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11600,9 +11650,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: true
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11611,9 +11661,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11626,7 +11676,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -11660,16 +11710,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11677,9 +11727,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11688,9 +11738,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11703,7 +11753,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -12196,7 +12246,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -12264,11 +12314,11 @@
   Near: -1.000000
   Far: 200.000000
   Fov: 63.541019
-  ClearColor: !<CameraClearColor/00000000-0000-0000-0000-000000000000>
+  ClearColor: !<CameraClearColor>
     Mode: None
     Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
     InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
-  ClearDepth: !<CameraClearDepth/00000000-0000-0000-0000-000000000000>
+  ClearDepth: !<CameraClearDepth>
     Mode: Value
     Value: 1.000000
     InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -12377,16 +12427,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -12394,9 +12444,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -12405,9 +12455,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -12420,7 +12470,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -12545,7 +12595,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+  Shape: !<Sphere>
     FitVisual: true
     Radius: 1.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -12611,7 +12661,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -12819,16 +12869,16 @@
     top: -5.000000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 0.000000, y: 0.976806, z: 0.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -12836,9 +12886,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -12847,9 +12897,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -12862,7 +12912,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -13339,16 +13389,16 @@
     top: 0.000000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.500008}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13356,9 +13406,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.400000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13367,9 +13417,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13382,7 +13432,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 0.760000
@@ -13504,6 +13554,7 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 4b07923e-fee0-430d-9576-4579b2b5b340
+    - !<own> 1ba0b15a-0ada-46ff-802d-71255ce52cab
   Components:
     []
 - !<SceneObject/9bdb72ab-918f-489d-b5c8-aca355d6831a>
@@ -13596,16 +13647,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13613,9 +13664,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13624,9 +13675,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13639,7 +13690,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -13687,16 +13738,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13704,9 +13755,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13715,9 +13766,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13730,7 +13781,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -13937,7 +13988,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     FitVisual: false
     Size: {x: 7.500000, y: 2.100000, z: 2.100000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14106,7 +14157,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -14442,9 +14493,9 @@
   Name: Device Tracking
   Enabled: true
   DeviceTrackingMode: World
-  RotationOptions: !<RotationOptions/00000000-0000-0000-0000-000000000000>
+  RotationOptions: !<RotationOptions>
     InvertRotation: false
-  SurfaceOptions: !<SurfaceOptions/00000000-0000-0000-0000-000000000000>
+  SurfaceOptions: !<SurfaceOptions>
     EnhanceWithNativeAR: false
 - !<ScriptComponent/a75e43b8-dab3-4e20-ba98-bde7762c0326>
   PrefabRemaps:
@@ -14640,16 +14691,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14657,9 +14708,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14668,9 +14719,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14683,7 +14734,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -14831,16 +14882,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14848,9 +14899,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14859,9 +14910,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14874,7 +14925,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 946a7f79-3813-4e77-8af4-ef668152c9b3
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -14923,16 +14974,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14940,9 +14991,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14951,9 +15002,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -14966,7 +15017,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 8962d137-b566-45ca-9e15-d1ce4280160b
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -15256,16 +15307,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -15273,9 +15324,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -15284,9 +15335,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -15299,7 +15350,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -15650,7 +15701,7 @@
 - !<SceneObject/b64bc1fd-2141-4afd-bbf6-1f37f3ea1b0e>
   PrefabRemaps:
     []
-  Name: Curve.003
+  Name: logo_m
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -16032,7 +16083,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -16044,7 +16095,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+  Shape: !<Sphere>
     FitVisual: true
     Radius: 1.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -16282,7 +16333,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+  Shape: !<Sphere>
     FitVisual: true
     Radius: 1.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -16505,7 +16556,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+  Shape: !<Sphere>
     FitVisual: true
     Radius: 1.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -16620,7 +16671,7 @@
 - !<SceneObject/c6d55d71-eafa-43c2-a5a0-ecc182e55215>
   PrefabRemaps:
     []
-  Name: Curve.002
+  Name: logo_a
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -16658,16 +16709,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -16675,9 +16726,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: true
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -16686,9 +16737,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -16701,7 +16752,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -16856,7 +16907,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -17148,16 +17199,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17165,9 +17216,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17176,9 +17227,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17191,7 +17242,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -17427,16 +17478,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.700008}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.700008}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17444,9 +17495,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17455,9 +17506,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17470,7 +17521,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.050000
     LineSpacing: 1.000000
@@ -17680,7 +17731,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17809,16 +17860,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17826,9 +17877,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17837,9 +17888,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17852,7 +17903,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -17970,16 +18021,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17987,9 +18038,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -17998,9 +18049,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18013,7 +18064,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -18201,16 +18252,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18218,9 +18269,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18229,9 +18280,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18244,7 +18295,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -18722,16 +18773,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18739,9 +18790,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18750,9 +18801,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18765,7 +18816,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -18892,16 +18943,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 0.984314, z: 0.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18909,9 +18960,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18920,9 +18971,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -18935,7 +18986,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -19016,7 +19067,7 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -19091,16 +19142,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -19108,9 +19159,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: true
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -19119,9 +19170,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -19134,7 +19185,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -19214,16 +19265,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -19231,9 +19282,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: true
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -19242,9 +19293,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -19257,7 +19308,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -19745,7 +19796,7 @@
 - !<SceneObject/e63f0fc3-315d-443f-8ce1-359eb2da0307>
   PrefabRemaps:
     []
-  Name: Curve.007
+  Name: logo_J
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -19813,16 +19864,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -19830,9 +19881,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -19841,9 +19892,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -19856,7 +19907,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -20007,16 +20058,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -20024,9 +20075,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -20035,9 +20086,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -20050,7 +20101,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -20166,16 +20217,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -20183,9 +20234,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -20194,9 +20245,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -20209,7 +20260,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -20621,16 +20672,16 @@
     top: 9.000000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 0.149126, z: 0.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -20638,9 +20689,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -20649,9 +20700,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -20664,7 +20715,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -20869,7 +20920,7 @@
     []
   Name: Physics Body
   Enabled: true
-  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+  Shape: !<Mesh>
     Mesh: !<reference> 111c4052-9be4-4b83-b93f-fa7d6a60bb48
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21283,7 +21334,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     FitVisual: false
     Size: {x: 7.500000, y: 2.100000, z: 2.100000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21301,7 +21352,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     FitVisual: false
     Size: {x: 14.000000, y: 5.000000, z: 5.000000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21527,7 +21578,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     FitVisual: false
     Size: {x: 14.000000, y: 5.000000, z: 5.000000}
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21566,16 +21617,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21583,9 +21634,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: true
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21594,9 +21645,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21609,7 +21660,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -21732,16 +21783,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21749,9 +21800,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21760,9 +21811,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21775,7 +21826,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -21898,16 +21949,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Overflow
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21915,9 +21966,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21926,9 +21977,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -21941,7 +21992,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
@@ -22236,16 +22287,16 @@
     top: 2.250000
   OverflowVertical: Overflow
   OverflowHorizontal: Wrap
-  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+  Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
-  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+  Outline: !<OutlineSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -22253,9 +22304,9 @@
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.020000
-  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+  Dropshadow: !<DropshadowSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -22264,9 +22315,9 @@
       TextureStretch: FitWidth
     OffsetX: 0.250000
     OffsetY: 0.250000
-  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+  Background: !<BackgroundSettings>
     Enabled: false
-    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Fill: !<TextFill>
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
@@ -22279,7 +22330,7 @@
       right: 0.000000
       top: 0.000000
     CornerRadius: 0.000000
-  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+  AdvancedLayout: !<TextAdvancedLayout>
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.000000

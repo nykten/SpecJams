@@ -12,6 +12,8 @@
   DependentFiles:
     []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/059eae64-6c0c-45cd-95e0-1adb996d46a5>
   Icon: ""
   Description: ""
@@ -58,9 +60,9 @@
       {}
   InputLines:
     - '// @ui {"widget":"group_start", "label":"Interactor"}'
-    - // @input bool _drawDebug = false
+    - // @input bool _drawDebug
     - '// @ui {"widget":"group_start", "label":"Spherecast Configuration"}'
-    - // @input bool sphereCastEnabled = false
+    - // @input bool sphereCastEnabled
     - '// @input number[] spherecastRadii = "{0.5, 2.0, 4.0}" {"showIf":"sphereCastEnabled", "showIfValue":true}'
     - '// @input number[] spherecastDistanceThresholds = "{0, 12, 30}" {"showIf":"sphereCastEnabled", "showIfValue":true}'
     - '// @ui {"widget":"group_end"}'
@@ -69,7 +71,7 @@
     - // @input float indirectTargetingVolumeMultiplier = 1
     - '// @ui {"widget":"group_end"}'
     - '// @ui {"widget":"group_start", "label":"Indirect Drag Provider"}'
-    - // @input float indirectDragThreshold = 3.0
+    - // @input float indirectDragThreshold = 3
     - '// @ui {"widget":"group_end"}'
     - '// @ui {"widget":"group_end"}'
     - '// @ui {"widget":"group_start", "label":"Mobile Interactor"}'

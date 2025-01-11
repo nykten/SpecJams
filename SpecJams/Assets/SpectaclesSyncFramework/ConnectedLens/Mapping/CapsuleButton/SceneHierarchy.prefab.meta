@@ -12,6 +12,8 @@
   ImporterSettings: !<AssetImporterSettings/110173b5-4767-4ae2-a417-eb400781a411>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<ObjectPrefabAssetData/172195af-d139-4d18-b29a-7647a86e6d57>
   SourceRemaps:
     - 2f797ad8-144b-4914-be7b-e650427d0b1f: bcc833bb-2e9f-4091-bbb9-8e50ea1561b5
@@ -160,7 +162,7 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+  Shape: !<Box>
     Size: {x: 14.000000, y: 5.000000, z: 5.000000}
     FitVisual: false
   Matter: !<reference> 00000000-0000-0000-0000-000000000000

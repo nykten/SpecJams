@@ -13,6 +13,8 @@
     []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   NativePackageRoot: !<reference> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/794c6a6a-efcc-4122-855f-fdb4f89e1f87>
   InputLines:
     []

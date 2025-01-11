@@ -27,7 +27,7 @@
   Autoplay: true
   ClipRangeType: Frames
   AnimationClips:
-    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+    - !<AnimationClip>
       AnimationAsset: !<reference> 83e803e8-f589-4b21-aed4-fd9b6bceb042
       Name: BaseLayer
       Weight: 1.000000

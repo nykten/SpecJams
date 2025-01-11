@@ -12,6 +12,8 @@
   DependentFiles:
     []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/bb3007a3-5afd-4a1e-86cd-7c25924f45a6>
   InputLines:
     []

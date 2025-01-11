@@ -48,6 +48,8 @@
       mesh: None Compression
     Overrides:
       {}
+  ExtraData:
+    {}
 - !<RenderMeshVisual/17a6832d-efd5-41bc-a1aa-7a80832fd5cb>
   PrefabRemaps:
     []

@@ -1,0 +1,35 @@
+- !<Material/78b2bb7c-1f39-4561-9e2b-cb96d6e6df07>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 598e36f7-2104-43b8-bb1b-461a744074cd
+- !<PassInfo/598e36f7-2104-43b8-bb1b-461a744074cd>
+  CachedProperties:
+    []
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_221_DROPLIST_ITEM 0
+    - NODE_228_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_315_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - NODE_76_DROPLIST_ITEM 0
+    - ENABLE_NORMALMAP
+    - ENABLE_RIM_HIGHLIGHT
+  BlendMode: Disabled
+  Properties:
+    {}
+  Pass: !<reference> 07627f03-14dd-4784-956f-82553859e88e

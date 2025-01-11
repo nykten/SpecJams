@@ -13,6 +13,8 @@
     []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   NativePackageRoot: !<reference> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<ScriptAssetData/456a44d5-d350-4e13-a9bb-7cacdc0fb0be>
   Icon: ""
   Description: ""

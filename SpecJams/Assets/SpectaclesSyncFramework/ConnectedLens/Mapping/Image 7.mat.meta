@@ -12,3 +12,5 @@
   ImporterSettings: !<AssetImporterSettings/d4ac7771-d1db-4ea6-82c9-b2393410ee6a>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}

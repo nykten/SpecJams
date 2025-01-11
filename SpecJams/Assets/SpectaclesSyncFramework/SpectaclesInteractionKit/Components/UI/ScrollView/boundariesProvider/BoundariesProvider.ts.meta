@@ -12,6 +12,8 @@
   DependentFiles:
     []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/ac96323b-fba7-4819-aa4c-1914ae7fb389>
   Icon: ""
   Description: ""

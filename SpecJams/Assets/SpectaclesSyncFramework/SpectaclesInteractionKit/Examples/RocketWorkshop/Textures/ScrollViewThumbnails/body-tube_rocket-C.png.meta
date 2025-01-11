@@ -15,3 +15,5 @@
     CompressorName: Performance
     CompressionSettings: !<TextureCompressionSettings/45455468-e028-4687-9417-694d6ec239ef>
       Level: Medium
+  ExtraData:
+    {}

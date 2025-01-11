@@ -12,6 +12,8 @@
   DependentFiles:
     []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<SceneObject/02319969-ba76-49c0-a8a7-c9eec87c898e>
   PrefabRemaps:
     []

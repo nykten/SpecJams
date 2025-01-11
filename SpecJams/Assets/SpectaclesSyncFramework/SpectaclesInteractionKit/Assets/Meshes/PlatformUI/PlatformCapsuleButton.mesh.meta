@@ -25,3 +25,5 @@
       NormalBits: 8
       ColorBits: 8
     CompressorName: Draco
+  ExtraData:
+    {}

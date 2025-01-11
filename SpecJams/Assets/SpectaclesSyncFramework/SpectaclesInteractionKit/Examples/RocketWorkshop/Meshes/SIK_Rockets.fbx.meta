@@ -108,6 +108,8 @@
       jpg: Performance Compression
     Overrides:
       {}
+  ExtraData:
+    {}
 - !<RenderMeshVisual/035410e6-003a-40d7-a99c-1fe5b1d29f5b>
   PrefabRemaps:
     []

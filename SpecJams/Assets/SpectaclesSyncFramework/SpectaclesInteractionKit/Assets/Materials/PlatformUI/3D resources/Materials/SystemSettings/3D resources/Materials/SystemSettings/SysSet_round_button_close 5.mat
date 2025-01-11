@@ -3,6 +3,8 @@
   PassesInfo:
     - !<own> 16f1fba4-f71f-42df-bb30-e344c30283bb
 - !<PassInfo/16f1fba4-f71f-42df-bb30-e344c30283bb>
+  CachedProperties:
+    []
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual

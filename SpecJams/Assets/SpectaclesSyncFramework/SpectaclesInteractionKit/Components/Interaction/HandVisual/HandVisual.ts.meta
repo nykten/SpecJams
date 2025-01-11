@@ -12,6 +12,8 @@
   DependentFiles:
     []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/719f3e6e-2bab-40f7-8e7b-670074986fae>
   InputLines:
     - '// @ui {"widget":"group_start", "label":"Hand Visual"}'
@@ -60,7 +62,7 @@
     - '// @input float tipGlowRenderOrder = 10000 {"hint":"The render order of the quad on which the tip glow effect occurs"}'
     - '// @ui {"widget":"group_end"}'
     - '// @ui {"widget":"group_start", "label":"Radial Gradient Occlusion"}'
-    - '// @input bool occluderEnabled = false {"hint":"Whether or not the radial gradient occluder is enabled"}'
+    - '// @input bool occluderEnabled {"hint":"Whether or not the radial gradient occluder is enabled"}'
     - '// @input Asset.RenderMesh occluderUnitPlaneMesh {"hint":"The plane mesh the radial gradient occluder will be rendered"}'
     - '// @input Asset.Material radialGradientOcclusionMaterial {"hint":"The material which will be create the gradient occlusion effect"}'
     - '// @input float gradientQuadRenderOrder = 9997 {"hint":"The render order of the gradient quad tracked to the hand"}'

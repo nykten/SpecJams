@@ -12,6 +12,8 @@
   ImporterSettings: !<AssetImporterSettings/f3cb0858-2ba5-4532-a844-774629073b79>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
 - !<SceneObject/01dbeebb-47cb-42a5-b5e1-626b9f6d0cf8>
   PrefabRemaps:
     []
@@ -1474,7 +1476,7 @@
   Autoplay: true
   ClipRangeType: Frames
   AnimationClips:
-    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+    - !<AnimationClip>
       AnimationAsset: !<reference> f5c644d1-89d8-4bc1-9fde-2a591fbbc6f4
       Name: BaseLayer
       Weight: 1.000000

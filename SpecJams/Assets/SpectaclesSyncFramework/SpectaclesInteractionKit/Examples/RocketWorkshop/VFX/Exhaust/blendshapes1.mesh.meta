@@ -22,3 +22,5 @@
   CompressionSettings: !<SingleCompressionSettings/a6c1a01a-2550-4d42-bcc8-d4994b47ccdb>
     CompressorName: None
     CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
